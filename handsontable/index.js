@@ -12,8 +12,8 @@ var data =[
   var hot = new Handsontable(container, {
     data: data,
     className: "htCenter htMiddle", 
-    colHeaders: true,
     colHeaders: ['语言名称','排名','升或降','变化幅度'],
+    colHeaders: true,
     rowHeights: 50,
     colWidths: 200,
   });
